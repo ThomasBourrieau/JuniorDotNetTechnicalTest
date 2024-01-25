@@ -1,21 +1,24 @@
-This project aims to test dot net minimal 
- 
-Exercice 1
-Following logical order of unit tests in EnvironmentVariablesTests class,
-Follow the instruction in each test case to make it pass in success. 
+# .NET skills evaluation
 
-Exercice 2
-Create a new class that inherit of GrtNextEnvironment and implement IExtGrtNextEnvironment interface.
+> 🎯 **Objective:** Test minimal .NET skill 
+ 
+## Exercice 1
+
+Following logical order of unit tests in `EnvironmentVariablesTests` class,
+follow instructions in comment in each test case to make it pass in success.
+
+## Exercice 2
+Create a new class that inherit of `GrtNextEnvironment` and implement `IExtGrtNextEnvironment` interface.
 Read the interface comments to know what must be implemented. 
-Create a new test class that will valid the both features of IExtGrtNextEnvironment;
+Create a new test class that will valid the both features of `IExtGrtNextEnvironment`.
 
 Tested skills :
-- follow instructions in english
-- use generic windows functions (sessions, environement variables...)
-- manipulate collections of items
-- manipulate custom indexer
-- manipulate string
-- understand inheritance and interface
-- create class and unit tests 
-- use vs code, dotnet commands
-- manage git 
+- Follow instructions in english
+- Use generic windows functions (sessions, environement variables...)
+- Manipulate collections of items
+- Manipulate custom indexer
+- Manipulate string
+- Understand inheritance and interface
+- Create class and unit tests 
+- Use vs code, dotnet commands
+- Manage git 
