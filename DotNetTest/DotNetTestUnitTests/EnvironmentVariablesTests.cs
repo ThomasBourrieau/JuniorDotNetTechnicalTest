@@ -33,8 +33,12 @@ public class EnvironmentVariablesTests
         var grtenv = new GrtNextEnvironment();  
         var grtEnvVars = grtenv.GetByValue("windows");
 
-        //We assert that result of search for windows contains Key windir
-        Assert.IsNotNull(grtEnvVars.FirstOrDefault(v => v.Key == "windir"));
+        //We assert that result of search for windows contains multiple results
+        Assert.IsTrue( grtEnvVars.Count() > 0);
+        
+        //we ensure we match key windir in results
+        var keyValue = grtEnvVars.FirstOrDefault(v => v.Key == "windir");
+        Assert.AreEqual(keyValue.Key,"windir",true);
     }
 
      [TestMethod]
