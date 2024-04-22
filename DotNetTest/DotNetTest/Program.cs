@@ -1,4 +1,9 @@
-﻿using DotNetTest;
+﻿using System.Runtime.CompilerServices;
+using DotNetTest;
+
+var db = new SQLiteManager();
+db.GenerateLocalDb();
+db.GetAndDisplayUsers(true);
 
 var grtEnv = new GrtNextEnvironment();
 var grtEnvVars = grtEnv.GetByValue("windows");
