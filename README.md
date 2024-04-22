@@ -12,6 +12,10 @@ Create a new class that inherit of `GrtNextEnvironment` and implement `IExtGrtNe
 Read the interface comments to know what must be implemented. 
 Create a new test class that will valid the both features of `IExtGrtNextEnvironment`.
 
+## Exercice 3 - SQL
+Follow the commented instructions in each tests of class SqlTests
+
+
 Tested skills :
 - Follow instructions in english
 - Use generic windows functions (sessions, environement variables...)
@@ -20,5 +24,6 @@ Tested skills :
 - Manipulate string
 - Understand inheritance and interface
 - Create class and unit tests 
+- basic SQL manipulation 
 - Use vs code, dotnet commands
 - Manage git 
